@@ -1,0 +1,12 @@
+
+
+
+</text>
+
+	var fade51 = [clearStage, 2000];
+	var methodArray51 = [function(){replaceAudio("background", "love_this_storm")}]
+	var slideOrder51 = ["fade", "method"];
+	var slide51 = new slide(fade51, "", "", methodArray51, slideOrder51);
+	
+
+slideDatabase["slide51"] = slide51;

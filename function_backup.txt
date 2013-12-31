@@ -1,0 +1,68 @@
+function placeTextLoop(i) {
+		placeText(slideDatabase["slide"+i].textArray[t], function(){
+			t++;
+			if(t<slideDatabase["slide"+i].textArray.length) {
+				placeText(e, slideDatabase["slide"+i].textArray[t]);
+			}
+			else{
+				t=0;
+			}
+		});
+	}
+
+
+
+if(slideDatabase["slide"+i].textCheck) {
+			placeTextLoop(i);
+		}
+
+
+
+		if(slideDatabase["slide"+i].imgCheck) {
+
+		}
+		if(slideDatabase["slide"+i].textCheck) {
+
+		}
+
+	function placeImgLoop(i) {
+		placeImg(slideDatabase["slide"+i].imgArray[m], function(){
+			m++;
+			if(m<slideDatabase["slide"+i].imgArray.length) {
+				placeImg(slideDatabase["slide"+i].imgArray[m]);
+			}
+			else{
+				m=0;
+			}
+		});
+	}
+
+	function placeTextLoop(i) {
+		placeText(slideDatabase["slide"+i].textArray[t], function(){
+			t++;
+			if(t<slideDatabase["slide"+i].textArray.length) {
+				placeText(slideDatabase["slide"+i].textArray[t]);
+			}
+			else{
+				t=0;
+			}
+		});
+	}
+
+
+	if (slideDatabase["slide"+i].slideOrder[key] === "image") {
+				placeImgLoop(i);
+			}
+			else {
+				placeTextLoop(i);				
+			}
+		}
+		m=0;
+		t=0;
+	}
+
+	function callLightning(target, variable, interval) {
+		var flash = setInterval(function(){
+			lightning(target, variable)
+		}, 3000);
+	}

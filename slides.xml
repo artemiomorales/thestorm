@@ -1,0 +1,2008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<!-- The introductory slides from 0 to 11 -->
+	<slide0>
+		<fade>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text0x0", "title", "0", false, "2.4em", "7%", "25%", "none", ".7", 100)</content>
+			<content>new text("boundingBox", "text0x1", "title", "0", false, "5em", "15%", "76%", "none", ".8", 100)</content>
+			<content>new text("boundingBox", "text0x2", "title", "0", false, "4em", "60%", "70%", "none", "", 85)</content>
+			<content>new text("boundingBox", "text0x3", "title", "0", false, "1.5em", "50%", "40%", "none", ".9", 60)</content>
+			<content>new text("boundingBox", "text0x4", "title", "0", false, "4.7em", "53%", "8%", "none", ".8", 100)</content>
+			<content>new text("boundingBox", "text0x5", "title", "0", false, ".7em", "43%", "85%", "none", ".8", 125)</content>
+			<content>new text("boundingBox", "text0x6", "title", "0", false, ".7em", "96%", "10%", "none", ".4", 100)</content>
+			<content>new text("boundingBox", "text0x7", "title", "0", false, "1.8em", "6%", "3%", "none", ".7", 100)</content>
+			<content>new text("boundingBox", "text0x8", "title", "0", false, "1.4em", "12%", "60%", "none", ".6", 80)</content>
+			<content>new text("boundingBox", "text0x9", "title", "0", false, "2.2em", "62%", "30%", "none", ".8", 90)</content>
+			<content>new text("boundingBox", "text0x10", "title", "0", false, "2.7em", "15%", "50%", "none", "", 100)</content>
+			<content>new text("boundingBox", "text0x11", "title", "0", false, "1.2em", "85%", "20%", "none", ".7", 70)</content>
+			<content>new text("boundingBox", "text0x12", "title", "0", false, "1.2em", "14%", "13%", "none", ".5", 100)</content>
+			<content>new text("boundingBox", "text0x13", "title", "0", false, "1em", "90%", "70%", "none", ".7", 60)</content>
+			<content>new text("boundingBox", "text0x14", "title", "0", false, ".9em", "90%", "92%", "none", ".6", 100)</content>
+			<content>new text("boundingBox", "text0x15", "title", "0", false, "3em", "20%", "3%", "none", "", 80)</content>
+			<content>new text("boundingBox", "text0x16", "title", "0", false, ".6em", "40%", "28%", "none", ".5", 500)</content>
+			<content>new text("boundingBox", "text0x17", "title clickable", "1", true, "2.7em", "35%", "55%", "none", ".7", 132)</content>
+		</text>
+		<method>
+			<content>buttonDisplay = false</content>
+			<content>$("#text0x17").animate({color: "#996600"}, 2000, function(){$("#text0x17").click(function(){showSlide(i, y); i++})})</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide0>
+	
+	<slide1>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text1x0", "title", "2", true, "1.8em", "14%", "16.43%", "none", ".8", 132)</content>
+		</text>
+		<method>
+			<content>document.getElementById("thunder0").play()</content>
+			<content>buttonDisplay = true</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>method</content>
+			<content>fade</content>
+			<content>text</content>
+		</slideOrder>
+	</slide1>
+	
+	<slide2>
+		<fade>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text2x0", "title", "3", false, "2.7em", "52%", "48%", "none", ".9", 1200)</content>
+			<content>new text("boundingBox", "text2x3", "title", "6", false, "3em", "5%", "60%", "none", ".8", 2000)</content>
+			<content>new text("boundingBox", "text2x4", "title", "7", false, "2em", "50%", "78%", "none", ".7", 4500)</content>
+			<content>new text("boundingBox", "text2x1", "title", "4", false, "1.4em", "3%", "30%", "none", ".8", 4000)</content>
+			<content>new text("boundingBox", "text2x2", "title", "5", false, "2em", "15%", "40%", "none", ".7", 4300)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide2"].textArray[3])</content>
+			<content>placeText(slideDatabase["slide2"].textArray[4])</content>
+			<content>placeText(slideDatabase["slide2"].textArray[2])</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+			<content>text</content>
+		</slideOrder>
+	</slide2>
+	
+	<slide3>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "img3x0", "", "hound_large.png", "34%", "", "block", "", "0", 2000, "39.1667%")</content>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text3x0", "title", "8", false, "1.9em", "60%", "30%", "none", ".9", 800)</content>
+			<content>new text("boundingBox", "text3x2", "title", "10", false, "1.8em", "8%", "53%", "none", ".7", 1400)</content>
+			<content>new text("boundingBox", "text3x3", "title", "11", false, "2.2em", "52%", "78%", "none", "", 1000)</content>
+			<content>new text("boundingBox", "text3x1", "title", "9", false, "2.1em", "4%", "45%", "none", ".8", 800)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide3"].textArray[3])</content>
+			<content>lightning('img3x0')</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>img</content>
+			<content>text</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide3>
+	
+	<slide4>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "img4x0", "", "hound2_large.png", "7%", "3.5%", "block", "", "0", 2000, "42%")</content>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text4x0", "title", "12", false, "2em", "18%", "43%", "none", ".9", 1050)</content>
+			<content>new text("boundingBox", "text4x1", "title", "13", false, "2em", "24%", "77%", "none", ".8", 1150)</content>
+			<content>new text("boundingBox", "text4x2", "title", "14", false, "2.5em", "7%", "15%", "none", ".7", 1150)</content>
+			<content>new text("boundingBox", "text4x3", "title", "15", false, "1.4em", "50%", "44%", "none", ".6", 500)</content>
+			<content>new text("boundingBox", "text4x4", "title", "16", false, "1.9em", "30%", "58%", "none", ".8", 750)</content>
+			<content>new text("boundingBox", "text4x5", "title", "17", false, "2.2em", "20%", "32%", "none", ".8", 1500)</content>
+		</text>
+		<method>
+			<content>lightning('img4x0')</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>img</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide4>
+	
+	<slide5>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text5x0", "title", "18", false, "1.3em", "40%", "58%", "none", ".7", 1500)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+		</slideOrder>
+	</slide5>
+	
+	<slide6>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text6x0", "title", "19", false, "2em", "34%", "43%", "none", ".8", 3500)</content>
+			<content>new text("boundingBox", "text6x1", "title", "20", false, "1.9em", "49%", "48%", "none", ".7", 3500)</content>
+		</text>
+		<method>
+			<content>document.getElementById("thunder1").play()</content>
+			<content>document.getElementById("introSong").play()</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>method</content>
+			<content>simultaneous</content>
+		</slideOrder>
+	</slide6>
+	
+	<slide7>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text7x0", "title", "21", false, "3em", "27%", "39%", "none", "", 3500)</content>
+			<content>new text("boundingBox", "text7x1", "title", "22", false, "2.7em", "49%", "49%", "none", ".6", 3500)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>simultaneous</content>
+		</slideOrder>
+	</slide7>
+	
+	<slide8>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text8x0", "title", "23", false, "1.2em", "23%", "41%", "none", ".9", 1000)</content>
+			<content>new text("boundingBox", "text8x1", "title", "24", false, "1.75em", "30.5%", "47.8%", "none", ".6", 2000)</content>
+			<content>new text("boundingBox", "text8x2", "title", "25", false, "1.8em", "29.7%", "54%", "none", ".8", 2000)</content>
+			<content>new text("boundingBox", "text8x3", "title", "26", false, "1.7em", "51%", "48%", "none", ".8", 2000)</content>
+			<content>new text("boundingBox", "text8x4", "title", "27", false, "1.9em", "53.4%", "53.8%", "none", ".6", 2000)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>simultaneous</content>
+		</slideOrder>
+	</slide8>
+	
+	<slide9>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text9x0", "title", "28", false, "1.8em", "56%", "22%", "none", "", 2000)</content>
+			<content>new text("boundingBox", "text9x1", "title", "29", false, "1.9em", "24%", "74%", "none", "", 2000)</content>
+			<content>new text("boundingBox", "text9x2", "title", "30", false, "2.1em", "11%", "37%", "none", ".7", 2000)</content>
+			<content>new text("boundingBox", "text9x3", "title", "31", false, "1.7em", "44%", "60%", "none", ".9", 2000)</content>
+			<content>new text("boundingBox", "text9x4", "title", "32", false, "1.9em", "51%", "40%", "none", ".8", 2000)</content>
+			<content>new text("boundingBox", "text9x5", "title", "33", false, "1.4em", "23%", "25%", "none", ".9", 2000)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>simultaneous</content>
+		</slideOrder>
+	</slide9>
+	
+	<slide10>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text10x0", "title", "34", false, "1.6em", "20%", "62%", "none", ".6", 500)</content>
+			<content>new text("boundingBox", "text10x2", "title", "35", false, "1.8em", "15%", "28%", "none", ".8", 500)</content>
+			<content>new text("boundingBox", "text10x3", "title", "36", false, "1.7em", "45%", "44%", "none", ".7", 500)</content>
+			<content>new text("boundingBox", "text10x4", "title", "37", true, "1.4em", "33%", "80%", "none", "", 100)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide10>
+	
+	<!-- Presents the Storm Menu, the first fork in the presentation. -->	
+	<slide11>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "img12x0", "border clickable dark", "treesMenu.jpg", "8.5%", "5%", "none", "", "", 2000, "39.5314%");</content>
+			<content>new img("boundingBox", "img12x1", "border clickable dark", "boatsMenu.jpg", "27.5%", "56%", "none", "", "", 2000, "43.924%");</content>
+			<content>new img("boundingBox", "img12x2", "border clickable dark", "fashionMenu.jpg", "50.5%", "8%", "none", "", "", 2000, "40.2635%");</content>
+		</img>
+		<text>
+		</text>
+		<method>
+			<content>buttonDisplay = false</content>
+			<content>launchMenu()</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>fade</content>
+			<content>simultaneous</content>
+			<content>method</content>
+		</slideOrder>
+	</slide11>
+	
+	<!-- The beginning of Before the Hurricane -->
+	<slide30>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text30x0", "title", "50", false, "3em", "15%", "18%", "none", "", 2000)</content>
+			<content>new text("boundingBox", "text30x1", "title", "51", true, "1.7em", "30%", "40%", "none", "", 150)</content>
+			<content>new text("boundingBox", "text30x2", "title", "52", false, "1.5em", "58%", "45%", "none", ".9", 1000)</content>
+			<content>new text("boundingBox", "text30x3", "title", "53", false, "1.3em", "12%", "55%", "none", ".7", 750)</content>
+			<content>new text("boundingBox", "text30x4", "title", "54", false, "1.2em", "30%", "62%", "none", ".6", 750)</content>
+		</text>
+		<method>
+			<content>buttonDisplay = true</content>
+			<content>fadeAudioOut("introSong")</content>
+			<content>fadeAudioOut("rain", function(){document.getElementById("car").play()})</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>fade</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide30>
+	
+	<slide31>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text31x1", "title", "56", false, "1.8em", "54%", "42%", "none", ".9", 1200)</content>
+			<content>new text("boundingBox", "text31x2", "title", "57", false, "1.6em", "63%", "49%", "none", ".7", 1200)</content>
+			<content>new text("boundingBox", "text31x3", "title", "58", false, "1.4em", "72%", "56%", "none", ".6", 1200)</content>
+			<content>new text("boundingBox", "text31x0", "title", "55", true, "1.2em", "10%", "52%", "none", ".7", 132)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide31"].textArray[3])</content>;
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide31>
+	
+	<slide32>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text32x0", "title", "59", false, "1.8em", "6%", "23%", "none", ".9", 1400)</content>
+			<content>new text("boundingBox", "text32x1", "title", "60", false, "1.5em", "38%", "40%", "none", ".8", 1000)</content>
+			<content>new text("boundingBox", "text32x2", "title", "61", false, "1.4em", "33%", "65%", "none", ".7", 1000)</content>
+			<content>new text("boundingBox", "text32x3", "title", "62", false, "1.3em", "51%", "55%", "none", ".6", 1000)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide32>
+	
+	<slide33>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text33x0", "title", "63", false, "2em", "34%", "18%", "none", ".9", 1200)</content>
+			<content>new text("boundingBox", "text33x1", "title", "64", false, "1.6em", "11%", "40%", "none", ".7", 1000)</content>
+			<content>new text("boundingBox", "text33x2", "title", "65", false, "1.8em", "49%", "62%", "none", ".7", 1000)</content>
+			<content>new text("boundingBox", "text33x3", "title", "66", false, "1.5em", "19%", "80%", "none", ".9", 1000)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide33>
+	
+	<slide34>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text34x0", "title", "67", false, "2em", "18%", "40%", "none", ".9", 1000)</content>
+			<content>new text("boundingBox", "text34x2", "title", "69", false, "1.7em", "25%", "53.5%", "none", ".7", 2000)</content>
+			<content>new text("boundingBox", "text34x1", "title", "68", false, "1.8em", "28%", "47%", "none", ".8", 3500)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide34"].textArray[2])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide34>
+	
+	<slide35>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "img35x0", "border", "car0.jpg", "35%", "7%", "none", "", "", 2000, "58.5651%")</content>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text35x0", "title", "71", false, "1.8em", "5%", "69%", "none", ".9", 2000)</content>
+			<content>new text("boundingBox", "text35x1", "title", "72", false, "1.5em", "25%", "77%", "none", ".8", 1000)</content>
+			<content>new text("boundingBox", "text35x2", "title", "73", false, "1.3em", "52%", "81%", "none", ".8", 1000)</content>
+			<content>new text("boundingBox", "text35x3", "title", "74", false, "1.2em", "41%", "86%", "none", ".8", 1000)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>img</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide35>
+	
+	<slide36>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text36x0", "title", "75", false, "1.7em", "17%", "40%", "none", ".8", 1000)</content>
+			<content>new text("boundingBox", "text36x1", "title", "76", false, "1.5em", "21%", "46%", "none", ".8", 1000)</content>
+			<content>new text("boundingBox", "text36x2", "title", "77", false, "1.5em", "41%", "66%", "none", ".8", 2000)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide36>
+	
+	<slide37>
+		<fade>
+		</fade>
+		<img>
+		</img>
+		<text>
+		</text>
+		<method>
+			<content>buttonDisplay = false</content>
+			<content>portalToStormSong()</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>method</content>
+		</slideOrder>
+	</slide37>
+	
+	<!-- The beginning of the Storm Song Interlude -->
+	<slide50>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "img60x0", "border", "stormSong0.jpg", "32%", "29.5%", "none", "0", "0", 2000, "35%")</content>
+		</img>
+		<text>
+			<content>new text("boundingBox", "poem0x0", "title clickable poem", "90", false, "1.9em", "18%", "30%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "text50x0", "title", "91", false, "1.4em", "46.5%", "38%", "none", ".8", 300)</content>
+			<content>new text("boundingBox", "poem0x1", "title clickable poem", "92", false, "1.9em", "78%", "30%", "none", ".9", 1500)</content>
+		</text>
+		<method>
+			<content>buttonDisplay = false</content>
+			<content>document.getElementById("love_this_storm").load()</content>
+			<content>document.getElementById("love_this_storm").play()</content>
+			<content>animatePoem()</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>fade</content>
+			<content>method</content>
+			<content>method</content>
+			<content>img</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide50>
+	
+	<slide51>
+		<fade>
+			<content>clearStage</content>
+			<content>1500</content>
+			<content>poem0x</content>
+			<content>1</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "poem1x0", "title clickable poem", "94", false, "1.5em", "19%", "40%", "none", ".8", 1500)</content>
+			<content>new text("boundingBox", "poem1x1", "title clickable poem", "93", false, "1.8em", "25%", "51%", "none", ".9", 1500)</content>
+		</text>
+		<method>
+			<content>createWord()</content>
+			<content>animatePoem()</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide51>
+	
+	<slide52>
+		<fade>
+			<content>clearStage</content>
+			<content>1500</content>
+			<content>poem1x</content>
+			<content>1</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "poem2x0", "title clickable poem", "95", false, "1.9em", "35%", "52%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "poem2x1", "title clickable poem", "96", false, "1.5em", "49%", "43%", "none", "", 1500)</content>
+		</text>
+		<method>
+			<content>createWord()</content>
+			<content>animatePoem()</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide52>	
+	
+	<slide53>
+		<fade>
+			<content>clearStage</content>
+			<content>1500</content>
+			<content>poem2x</content>
+			<content>1</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "poem3x0", "title clickable poem", "97", false, "1.5em", "25%", "43%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "poem3x1", "title clickable poem", "98", false, "1.8em", "49%", "50%", "none", ".8", 1500)</content>
+		</text>
+		<method>
+			<content>createWord()</content>
+			<content>animatePoem()</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide53>
+	
+	<slide54>
+		<fade>
+			<content>clearStage</content>
+			<content>1500</content>
+			<content>poem3x</content>
+			<content>1</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "poem4x0", "title clickable poem", "99", false, "1.9em", "15%", "15%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "poem4x1", "title clickable poem", "100", false, "1.4em", "39%", "79%", "none", ".8", 1500)</content>
+		</text>
+		<method>
+			<content>createWord()</content>
+			<content>animatePoem()</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide54>
+	
+	<slide55>
+		<fade>
+			<content>clearStage</content>
+			<content>1500</content>
+			<content>poem4x</content>
+			<content>10</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "poem5x0", "title clickable poem", "101", false, "1.6em", "38%", "61%", "none", ".9", 1500)</content>
+		</text>
+		<method>
+			<content>createWord()</content>
+			<content>animatePoem()</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide55>
+	
+	<slide56>
+		<fade>
+			<content>clearStage</content>
+			<content>1500</content>
+			<content>poem5x</content>
+			<content>0</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "poem6x0", "title clickable poem", "102", false, "1.9em", "71%", "58%", "none", ".9", 1500)</content>
+		</text>
+		<method>
+			<content>createWord()</content>
+			<content>animatePoem()</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide56>	
+
+	<slide57>
+		<fade>
+			<content>clearStage</content>
+			<content>1500</content>
+			<content>poem6x</content>
+			<content>0</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "poem7x0", "title clickable poem", "103", false, "1.7em", "5%", "33%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "poem7x1", "title clickable poem", "104", false, "1.4em", "80%", "55%", "none", ".8", 1500)</content>
+		</text>
+		<method>
+			<content>createWord()</content>
+			<content>animatePoem()</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide57>	
+	
+	<slide58>
+		<fade>
+			<content>clearStage</content>
+			<content>1500</content>
+			<content>poem7x</content>
+			<content>1</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "poem8x0", "title clickable poem", "105", false, "1.9em", "50%", "75%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "poem8x1", "title clickable poem", "106", false, "3.4em", "21%", "40%", "none", ".8", 1500)</content>
+		</text>
+		<method>
+			<content>createWord()</content>
+			<content>animatePoem()</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide58>
+	
+	<slide59>
+		<fade>
+			<content>clearStage</content>
+			<content>1500</content>
+			<content>poem8x</content>
+			<content>1</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "poem9x0", "title clickable poem", "107", false, "1.9em", "41%", "75%", "none", ".9", 1500)</content>
+		</text>
+		<method>
+			<content>createWord()</content>
+			<content>animatePoem()</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide59>
+	
+	<!-- Initializes the animation of the Rotate words. Also, changes stormSongComplete to "true" -->
+	<slide60>
+		<fade>
+			<content>clearStage</content>
+			<content>1500</content>
+			<content>poem9x</content>
+			<content>0</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+		</text>
+		<method>
+			<content>createWord()</content>
+			<content>animateWordsInitiate()</content>
+			<content>stormSongComplete = true</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+		</slideOrder>
+	</slide60>
+	
+	<slide61>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+			<content>img60x</content>
+			<content>0</content>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "img61x0", "border", "stormSong1.jpg", "32.5%", "30%", "none", "0", "", 2000, "35%")</content>
+		</img>
+		<text>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>img</content>
+		</slideOrder>
+	</slide61>
+	
+	<slide62>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+			<content>img61x</content>
+			<content>0</content>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "img62x0", "border", "stormSong2.jpg", "32%", "31%", "none", "0", "", 2000, "35%")</content>
+		</img>
+		<text>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>img</content>
+		</slideOrder>
+	</slide62>
+
+	<!-- This is a visual duplicate of Slide60, except without the functions. Also, it launches the StormLinks to advance -->	
+	<slide63>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+			<content>img62x</content>
+			<content>0</content>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "img60x0", "border", "stormSong0.jpg", "32%", "29.5%", "none", "0", "", 2000, "35%")</content>
+		</img>
+		<text>
+		</text>
+		<method>
+			<content>launchStormLinks()</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>img</content>
+			<content>method</content>
+		</slideOrder>
+	</slide63>
+	
+	<!-- If stormSongComplete is "true", redirect the user to slide64, which starts the Rotate word animation loop and launchs StormLinks -->
+	<slide64>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "img60x0", "border", "stormSong0.jpg", "32%", "29.5%", "none", "0", "", 2000, "35%")</content>
+		</img>
+		<text>
+		</text>
+		<method>
+			<content>fadeAudioOut("car", function(){document.getElementById("rain").play()})</content>
+			<content>buttonDisplay = false</content>
+			<content>portalToStormSisters()</content>
+			<content>createWordLoop()</content>
+			<content>launchStormLinks()</content>
+			<content>animateWordsInitiate()</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>method</content>
+			<content>fade</content>
+			<content>img</content>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+		</slideOrder>
+	</slide64>
+	
+	<!-- A slide that holds the information for the StormLink images -->
+	<slide65>
+		<fade>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "imgStormLink0", "border dark clickable", "treesStorm.jpg", "5%", "76%", "none", "0", "", 2000, "13%")</content>
+			<content>new img("boundingBox", "imgStormLink1", "border dark clickable", "fashionStorm.jpg", "82%", "78%", "none", "0", "", 2000, "13%")</content>
+			<content>new img("boundingBox", "imgStormLink2", "border dark clickable", "boatsStorm.jpg", "43.5%", "80%", "none", "0", "", 2000, "13%")</content>
+		</img>
+		<text>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+		</slideOrder>
+	</slide65>
+	
+	<slide66>
+		<fade>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "imgStormSistersLink0", "dark clickable", "hound_large.png", "36.5%", "18.5%", "none", "0", "", 2000, "26%")</content>
+		</img>
+		<text>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+		</slideOrder>
+	</slide66>
+
+	<!-- Beginning of Love This Storm -->
+	<slide80>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text80x0", "title", "130", false, "2.9em", "7%", "17%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "text80x1", "title", "131", false, "1.5em", "11%", "45%", "none", ".9", 1000)</content>
+			<content>new text("boundingBox", "text80x2", "title", "132", false, "1.7em", "14%", "52%", "none", ".9", 1000)</content>
+		</text>
+		<method>
+			<content>fadeAudioOut("introSong")</content>
+			<content>fadeAudioOut("love_this_storm")</content>
+			<content>buttonDisplay = true</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide80>
+
+	<slide81>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text81x0", "title", "133", false, "2em", "30%", "57%", "none", "", 1500)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+		</slideOrder>
+	</slide81>
+
+	<slide82>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text82x0", "title", "134", false, "1.8em", "3.5%", "29%", "none", ".9", 1600)</content>
+			<content>new text("boundingBox", "text82x2", "title", "136", false, "1.4em", "18.5%", "52%", "none", ".9", 1300)</content>
+			<content>new text("boundingBox", "text82x1", "title", "135", false, "1.5em", "12.5%", "35%", "none", ".7", 1900)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide82"].textArray[2])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide82>
+	
+	<slide83>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text83x0", "title", "137", false, "1.6em", "52%", "18%", "none", ".9", 900)</content>
+			<content>new text("boundingBox", "text83x1", "title", "138", false, "1.5em", "68%", "23%", "none", ".7", 700)</content>
+			<content>new text("boundingBox", "text83x2", "title", "139", false, "1.9em", "11%", "33.5%", "none", ".9", 800)</content>
+			<content>new text("boundingBox", "text83x5", "title", "142", false, "1.5em", "16.5%", "53%", "none", ".8", 1500)</content>
+			<content>new text("boundingBox", "text83x6", "title", "143", false, "1.6em", "45%", "80%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "text83x3", "title", "140", false, "1.5em", "6%", "41%", "none", ".8", 2100)</content>
+			<content>new text("boundingBox", "text83x4", "title", "141", false, "1.4em", "18%", "47%", "none", ".8", 2400)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide83"].textArray[5])</content>
+			<content>placeText(slideDatabase["slide83"].textArray[6])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide83>
+	
+	<slide84>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text84x0", "title", "144", false, "1.5em", "5%", "36%", "none", ".8", 700)</content>
+			<content>new text("boundingBox", "text84x1", "title", "145", false, "1.5em", "15%", "42%", "none", ".8", 1000)</content>
+			<content>new text("boundingBox", "text84x2", "title", "146", false, "1.9em", "54%", "61%", "none", ".9", 900)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide84>
+	
+	<slide85>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text85x0", "title", "147", false, "1.7em", "6%", "16%", "none", ".9", 700)</content>
+			<content>new text("boundingBox", "text85x1", "title", "148", false, "1.6em", "10%", "22%", "none", ".8", 700)</content>
+			<content>new text("boundingBox", "text85x2", "title", "149", false, "1.7em", "40%", "32%", "none", ".9", 1100)</content>
+			<content>new text("boundingBox", "text85x5", "title", "152", false, "1.9em", "10%", "62%", "none", ".9", 800)</content>
+			<content>new text("boundingBox", "text85x6", "title", "153", false, "1.8em", "15%", "68.5%", "none", ".9", 700)</content>
+			<content>new text("boundingBox", "text85x7", "title", "154", false, "1.8em", "8%", "75%", "none", ".8", 850)</content>
+			<content>new text("boundingBox", "text85x3", "title", "150", false, "1.6em", "32%", "38.5%", "none", ".8", 1800)</content>
+			<content>new text("boundingBox", "text85x4", "title", "151", false, "1.5em", "45%", "45%", "none", ".8", 2500)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide85"].textArray[6])</content>
+			<content>placeText(slideDatabase["slide85"].textArray[7])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>			
+		</slideOrder>
+	</slide85>
+	
+	<slide86>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "img86x0", "border", "loveStorm.jpg", "18%", "32%", "none", "", ".8", 2000, "26%")</content>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text86x0", "title", "155", false, "1.7em", "11%", "9%", "none", ".9", 700)</content>
+			<content>new text("boundingBox", "text86x1", "title", "156", false, "1.5em", "8%", "15.5%", "none", ".6", 1000)</content>
+			<content>new text("boundingBox", "text86x2", "title", "157", false, "1.9em", "13%", "20.5%", "none", ".8", 1000)</content>
+			<content>new text("boundingBox", "text86x3", "title", "158", false, "1.5em", "55%", "43%", "none", ".7", 700)</content>
+			<content>new text("boundingBox", "text86x4", "title", "159", false, "1.4em", "58%", "48%", "none", ".8", 1000)</content>
+			<content>new text("boundingBox", "text86x5", "title", "160", false, "1.3em", "33%", "84%", "none", ".6", 1000)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>img</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide86>
+	
+	<slide87>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text87x0", "title", "162", false, "2.1em", "20%", "42%", "none", ".6", 700)</content>
+			<content>new text("boundingBox", "text87x1", "title", "163", false, "1.9em", "30%", "49%", "none", ".7", 1000)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide87>
+	
+	<slide88>
+		<fade>
+		</fade>
+		<img>
+		</img>
+		<text>
+		</text>
+		<method>
+			<content>buttonDisplay = false</content>
+			<content>portalToStormSong2()</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>method</content>
+		</slideOrder>
+	</slide88>
+	
+	<!-- This is the beginning of What Not to Wear During a Hurricane -->
+	<slide100>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text100x0", "title", "170", true, "2.1em", "12%", "28%", "none", "", 150)</content>
+			<content>new text("boundingBox", "text100x1", "paragraph", "171", true, "1.4em", "17%", "40%", "none", ".8", 75)</content>
+			<content>new text("boundingBox", "text100x2", "paragraph", "172", true, "1.7em", "26%", "60%", "none", ".9", 60)</content>
+		</text>
+		<method>
+			<content>buttonDisplay = true</content>
+			<content>fadeAudioOut("introSong")</content>
+			<content>fadeAudioOut("love_this_storm")</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide100>
+	
+	<slide101>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text101x1", "paragraph3", "174", false, "1.2em", "60%", "15%", "none", ".9", 6500)</content>
+			<content>new text("boundingBox", "text101x2", "paragraph3", "175", false, "1.2em", "59%", "55%", "none", ".9", 2500)</content>
+			<content>new text("boundingBox", "text101x3", "paragraph3", "176", false, "1.2em", "61%", "61%", "none", ".9", 4000)</content>
+			<content>new text("boundingBox", "text101x0", "paragraph2", "173", true, "1.52em", "4%", "9%", "none", "", 35)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide101"].textArray[3])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide101>
+	
+	<slide102>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text102x0", "paragraph3", "177", false, "1.5em", "8%", "22%", "none", ".7", 1500)</content>
+			<content>new text("boundingBox", "text102x1", "paragraph", "178", false, "1.6em", "25%", "51%", "none", ".9", 1500)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide102>
+	
+	<slide103>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text103x0", "paragraph", "179", false, "1.7em", "9%", "27%", "none", ".8", 1500)</content>
+			<content>new text("boundingBox", "text103x1", "paragraph", "180", false, "1.5em", "26%", "53%", "none", ".7", 1500)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide103>
+	
+	<slide104>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text104x0", "paragraph3", "181", false, "1.3em", "5%", "30%", "none", ".9", 2000)</content>
+			<content>new text("boundingBox", "text104x1", "paragraph2", "182", true, "1.6em", "45%", "11%", "none", ".9", 35)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide104>
+	
+	<slide105>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text105x0", "paragraph", "183", false, "1.5em", "16%", "16%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "text105x1", "paragraph2", "184", false, "1.6em", "4%", "35%", "none", ".9", 1000)</content>
+			<content>new text("boundingBox", "text105x2", "paragraph3", "185", false, "1.3em", "61%", "61%", "none", ".7", 1200)</content>
+		</text>
+		<method>
+			<content>createFashionLink()</content>
+			<content>$("#portal").animate({color: "#996600"}, 2000)</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide105>
+	
+	<slide106>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text106x0", "paragraph2", "186", false, "1.5em", "6%", "18%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "text106x1", "paragraph", "187", false, "1.3em", "27%", "56%", "none", ".8", 1500)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide106>
+	
+	<slide107>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text107x0", "paragraph", "188", false, "1.6em", "10%", "16%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "text107x1", "paragraph", "189", false, "1.4em", "19%", "30%", "none", ".8", 1500)</content>
+			<content>new text("boundingBox", "text107x2", "paragraph", "190", false, "1.3em", "13%", "64.5%", "none", ".7", 1500)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide107>
+	
+	<slide108>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text108x0", "paragraph4", "191", true, "1.5em", "23%", "12%", "none", ".7", 60)</content>
+			<content>new text("boundingBox", "text108x1", "paragraph2", "192", true, "1.4em", "9%", "23%", "none", ".9", 60)</content>
+			<content>new text("boundingBox", "text108x2", "paragraph2", "193", true, "1.3em", "40%", "36%", "none", ".7", 60)</content>
+			<content>new text("boundingBox", "text108x3", "paragraph", "194", true, "1.6em", "5%", "53%", "none", ".9", 60)</content>
+			<content>new text("boundingBox", "text108x4", "paragraph4", "195", true, "1.4em", "18%", "71%", "none", ".8", 60)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide108>
+	
+	<slide109>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text109x0", "paragraph", "196", true, "1.6em", "6%", "33%", "none", ".7", 60)</content>
+			<content>new text("boundingBox", "text109x1", "paragraph4", "197", true, "1.7em", "16%", "50%", "none", ".8", 60)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide109>
+	
+	<slide110>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text110x0", "paragraph", "198", true, "1.5em", "13%", "28%", "none", ".8", 60)</content>
+			<content>new text("boundingBox", "text110x1", "paragraph", "199", true, "1.6em", "8%", "49%", "none", ".7", 60)</content>
+			<content>new text("boundingBox", "text110x2", "paragraph", "200", true, "2em", "41%", "66%", "none", ".9", 60)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide110>
+	
+	<slide111>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text111x0", "paragraph4", "201", false, "1.4em", "12%", "39%", "none", ".8", 2000)</content>
+			<content>new text("boundingBox", "text111x1", "paragraph3", "202", false, "1.5em", "47.5%", "55%", "none", ".8", 1500)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide111>
+	
+	<slide112>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text112x0", "paragraph4", "203", false, "1.6em", "11%", "22%", "none", ".8", 1500)</content>
+			<content>new text("boundingBox", "text112x1", "paragraph4", "204", false, "1.5em", "34%", "48%", "none", ".9", 1000)</content>
+			<content>new text("boundingBox", "text112x2", "paragraph", "205", false, "1.5em", "18%", "61%", "none", ".8", 1200)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide112>
+	
+	<slide113>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text113x0", "paragraph4", "206", false, "1.6em", "11%", "25%", "none", ".7", 1300)</content>
+			<content>new text("boundingBox", "text113x1", "paragraph", "207", false, "1.8em", "21%", "52%", "none", ".9", 1000)</content>
+			<content>new text("boundingBox", "text113x2", "paragraph2", "208", false, "1.7em", "31%", "65%", "none", ".8", 1000)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide113>
+	
+	<slide114>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text114x0", "paragraph3", "209", false, "1.5em", "4%", "17%", "none", ".7", 1500)</content>
+			<content>new text("boundingBox", "text114x1", "paragraph2", "210", false, "1.7em", "46%", "6%", "none", ".9", 1000)</content>
+			<content>new text("boundingBox", "text114x2", "paragraph4", "211", false, "1.6em", "10%", "62%", "none", ".8", 1500)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide114>
+	
+	<slide115>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text115x0", "paragraph4", "212", false, "1.6em", "3%", "16%", "none", ".7", 900)</content>
+			<content>new text("boundingBox", "text115x1", "paragraph2", "213", false, "1.7em", "31%", "35%", "none", ".9", 800)</content>
+			<content>new text("boundingBox", "text115x2", "paragraph", "214", false, "1.6em", "8%", "57%", "none", ".8", 700)</content>
+			<content>new text("boundingBox", "text115x3", "paragraph5", "215", false, "1.4em", "14%", "79%", "none", ".8", 700)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide115>
+	
+	<slide116>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text116x0", "paragraph3", "216", false, "2.8em", "6%", "3%", "none", ".7", 2000)</content>
+			<content>new text("boundingBox", "text116x1", "paragraph3", "217", false, "1.7em", "52%", "16%", "none", ".7", 1000)</content>
+			<content>new text("boundingBox", "text116x2", "paragraph2", "218", false, "1.8em", "46%", "48%", "none", ".7", 1000)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide116>
+	
+	<slide117>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text117x0", "paragraph3", "219", false, "2.4em", "51%", "", "none", ".7", 1500)</content>
+			<content>new text("boundingBox", "text117x1", "paragraph3", "220", false, "1.4em", "11%", "14%", "none", ".7", 500)</content>
+			<content>new text("boundingBox", "text117x2", "paragraph3", "221", false, "2.9em", "11%", "34%", "none", ".9", 800)</content>
+			<content>new text("boundingBox", "text117x3", "paragraph3", "222", false, "2.2em", "11%", "71%", "none", ".7", 600)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide117>
+	
+	<slide118>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text118x0", "paragraph5", "223", false, "2.3em", "6%", "15%", "none", ".7", 1200)</content>
+			<content>new text("boundingBox", "text118x1", "paragraph", "224", false, "1.4em", "13%", "50%", "none", ".7", 1000)</content>
+			<content>new text("boundingBox", "text118x3", "paragraph", "226", false, "1.5em", "31%", "70%", "none", ".7", 1000)</content>
+			<content>new text("boundingBox", "text118x4", "paragraph", "227", false, "1.7em", "28%", "76%", "none", ".7", 1000)</content>
+			<content>new text("boundingBox", "text118x2", "paragraph4", "225", false, "1.9em", "9%", "56%", "none", ".9", 1900)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide118"].textArray[4])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide118>
+	
+	<slide119>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text119x0", "paragraph4", "228", false, "1.7em", "11%", "41%", "none", ".9", 2000)</content>
+			<content>new text("boundingBox", "text119x1", "paragraph", "229", false, "1.9em", "21%", "48%", "none", ".8", 2000)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>simultaneous</content>
+		</slideOrder>
+	</slide119>
+	
+	<slide120>
+		<fade>
+		</fade>
+		<img>
+		</img>
+		<text>
+		</text>
+		<method>
+			<content>buttonDisplay = false</content>
+			<content>portalToStormSong3()</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>method</content>
+		</slideOrder>
+	</slide120>
+	
+	<!-- The beginning of Storm Sisters -->
+	<slide130>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text130x0", "title", "240", false, "3.3em", "27%", "16%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "text130x1", "paragraph3", "241", false, "1.45em", "15%", "37%", "none", ".8", 1200)</content>
+			<content>new text("boundingBox", "text130x2", "paragraph2", "242", false, "1.7em", "23%", "57%", "none", ".9", 2000)</content>
+		</text>
+		<method>
+			<content>buttonDisplay = true</content>
+			<content>placeText(slideDatabase["slide130"].textArray[2])</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>fade</content>
+			<content>text</content>
+			<content>method</content>
+			<content>text</content>
+		</slideOrder>
+	</slide130>
+	
+	<slide131>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text131x0", "paragraph", "243", false, "1.8em", "12%", "24%", "none", ".9", 1400)</content>
+			<content>new text("boundingBox", "text131x2", "paragraph", "245", false, "1.7em", "32%", "52%", "none", ".7", 1400)</content>
+			<content>new text("boundingBox", "text131x1", "paragraph", "244", false, "1.9em", "17%", "31%", "none", ".8", 2000)</content>
+			<content>new text("boundingBox", "text131x3", "paragraph", "246", false, "1.5em", "30%", "58.6%", "none", ".8", 2000)</content>
+			<content>new text("boundingBox", "text131x4", "paragraph", "247", false, "1.5em", "39%", "64.5%", "none", ".9", 2200)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide131"].textArray[2])</content>
+			<content>placeText(slideDatabase["slide131"].textArray[3])</content>
+			<content>placeText(slideDatabase["slide131"].textArray[4])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			
+		</slideOrder>
+	</slide131>
+	
+	<slide132>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+		</fade>
+		<img>
+			<content>new img("boundingBox", "imgStormSisters0", "border", "stormSisters.jpg", "", "6%", "none", "0", ".2", 2000, "100%")</content>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text132x0", "paragraph", "248", false, "1.7em", "24%", "16%", "none", ".8", 1800)</content>
+			<content>new text("boundingBox", "text132x4", "paragraph", "252", false, "1.8em", "34%", "45%", "none", ".8", 1200)</content>
+			<content>new text("boundingBox", "text132x7", "paragraph", "255", false, "1.8em", "8%", "69%", "none", ".8", 1200)</content>
+			<content>new text("boundingBox", "text132x1", "paragraph", "249", false, "1.8em", "21%", "22%", "none", ".8", 2300)</content>
+			<content>new text("boundingBox", "text132x2", "paragraph", "250", false, "1.6em", "24%", "28%", "none", ".9", 2300)</content>
+			<content>new text("boundingBox", "text132x3", "paragraph", "251", false, "1.5em", "23%", "34%", "none", ".9", 2300)</content>
+			<content>new text("boundingBox", "text132x5", "paragraph", "253", false, "1.6em", "40%", "51.3%", "none", ".8", 1900)</content>
+			<content>new text("boundingBox", "text132x6", "paragraph", "254", false, "1.5em", "37%", "57%", "none", ".8", 1900)</content>
+			<content>new text("boundingBox", "text132x8", "paragraph", "256", false, "1.6em", "7%", "75%", "none", ".8", 1900)</content>
+			<content>new text("boundingBox", "text132x9", "paragraph", "257", false, "1.5em", "13%", "81%", "none", ".9", 1900)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide132"].textArray[3])</content>
+			<content>placeText(slideDatabase["slide132"].textArray[4])</content>
+			<content>placeText(slideDatabase["slide132"].textArray[5])</content>
+			<content>placeText(slideDatabase["slide132"].textArray[6])</content>
+			<content>placeText(slideDatabase["slide132"].textArray[7])</content>
+			<content>placeText(slideDatabase["slide132"].textArray[8])</content>
+			<content>placeText(slideDatabase["slide132"].textArray[9])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>img</content>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+		</slideOrder>
+	</slide132>
+	
+	<slide133>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+			<content>text132x</content>
+			<content>9</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text133x0", "paragraph", "258", false, "1.7em", "5%", "80%", "none", ".8", 1200)</content>
+			<content>new text("boundingBox", "text133x1", "paragraph", "259", false, "1.9em", "19.5%", "35%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "text133x4", "paragraph", "262", false, "1.7em", "40%", "58%", "none", ".8", 1200)</content>
+			<content>new text("boundingBox", "text133x2", "paragraph", "260", false, "1.7em", "20%", "41%", "none", ".7", 2200)</content>
+			<content>new text("boundingBox", "text133x3", "paragraph", "261", false, "1.5em", "32%", "47%", "none", ".8", 2200)</content>
+			<content>new text("boundingBox", "text133x5", "paragraph", "263", false, "1.4em", "36%", "64.3%", "none", ".8", 1900)</content>
+			<content>new text("boundingBox", "text133x6", "paragraph", "264", false, "1.4em", "37%", "69.5%", "none", ".7", 1900)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide133"].textArray[3])</content>
+			<content>placeText(slideDatabase["slide133"].textArray[4])</content>
+			<content>placeText(slideDatabase["slide133"].textArray[5])</content>
+			<content>placeText(slideDatabase["slide133"].textArray[6])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+		</slideOrder>
+	</slide133>
+	
+	<slide134>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+			<content>text133x</content>
+			<content>6</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text134x0", "paragraph", "265", false, "1.7em", "25%", "19.5%", "none", ".8", 1700)</content>
+			<content>new text("boundingBox", "text134x5", "paragraph", "270", false, "1.9em", "20%", "57.3%", "none", ".8", 1200)</content>
+			<content>new text("boundingBox", "text134x1", "paragraph", "266", false, "1.9em", "28%", "25.5%", "none", ".8", 2200)</content>
+			<content>new text("boundingBox", "text134x2", "paragraph", "267", false, "1.7em", "31%", "32.3%", "none", ".7", 2200)</content>
+			<content>new text("boundingBox", "text134x3", "paragraph", "268", false, "1.4em", "27%", "38.6%", "none", ".8", 2200)</content>
+			<content>new text("boundingBox", "text134x4", "paragraph", "269", false, "1.8em", "25%", "44%", "none", ".8", 2200)</content>
+			<content>new text("boundingBox", "text134x6", "paragraph", "271", false, "1.7em", "25%", "64%", "none", ".7", 1900)</content>
+			<content>new text("boundingBox", "text134x7", "paragraph", "272", false, "1.4em", "31%", "70%", "none", ".8", 1900)</content>
+			<content>new text("boundingBox", "text134x8", "paragraph", "273", false, "1.6em", "32%", "74.7%", "none", ".8", 1900)</content>
+			<content>new text("boundingBox", "text134x9", "paragraph", "274", false, "1.7em", "30%", "80%", "none", ".8", 1900)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide134"].textArray[2])</content>
+			<content>placeText(slideDatabase["slide134"].textArray[3])</content>
+			<content>placeText(slideDatabase["slide134"].textArray[4])</content>
+			<content>placeText(slideDatabase["slide134"].textArray[5])</content>
+			<content>placeText(slideDatabase["slide134"].textArray[6])</content>
+			<content>placeText(slideDatabase["slide134"].textArray[7])</content>
+			<content>placeText(slideDatabase["slide134"].textArray[8])</content>
+			<content>placeText(slideDatabase["slide134"].textArray[9])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>												
+			<content>text</content>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+		</slideOrder>
+	</slide134>
+	
+	<slide135>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+			<content>text134x</content>
+			<content>9</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text135x0", "paragraph", "275", false, "1.9em", "23%", "31%", "none", ".9", 1500)</content>
+			<content>new text("boundingBox", "text135x2", "paragraph", "277", false, "1.6em", "27%", "47%", "none", ".8", 1500)</content>
+/			<content>new text("boundingBox", "text135x6", "paragraph", "281", false, "1.4em", "30%", "76%", "none", ".7", 2200)</content>
+			<content>new text("boundingBox", "text135x1", "paragraph", "276", false, "1.7em", "22.5%", "37%", "none", ".7", 2000)</content>
+			<content>new text("boundingBox", "text135x3", "paragraph", "278", false, "1.7em", "25%", "52.8%", "none", ".8", 2000)</content>
+			<content>new text("boundingBox", "text135x4", "paragraph", "279", false, "1.6em", "30%", "59%", "none", ".8", 2000)</content>
+			<content>new text("boundingBox", "text135x5", "paragraph", "280", false, "1.6em", "37%", "64.5%", "none", ".7", 2000)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide135"].textArray[3])</content>
+			<content>placeText(slideDatabase["slide135"].textArray[4])</content>
+			<content>placeText(slideDatabase["slide135"].textArray[5])</content>
+			<content>placeText(slideDatabase["slide135"].textArray[6])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide135>
+	
+	<slide136>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+			<content>text135x</content>
+			<content>6</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text136x0", "paragraph", "282", false, "1.8em", "29%", "36%", "none", ".8", 1800)</content>
+			<content>new text("boundingBox", "text136x2", "paragraph", "284", false, "1.8em", "25%", "59%", "none", ".8", 1200)</content>
+			<content>new text("boundingBox", "text136x5", "paragraph", "287", false, "2.1em", "31%", "76.5%", "none", ".8", 1500)</content>
+			<content>new text("boundingBox", "text136x1", "paragraph", "283", false, "1.7em", "31%", "42%", "none", ".9", 2200)</content>
+			<content>new text("boundingBox", "text136x3", "paragraph", "285", false, "1.9em", "21%", "65%", "none", ".7", 1900)</content>
+			<content>new text("boundingBox", "text136x4", "paragraph", "286", false, "1.6em", "26%", "71.5%", "none", ".7", 1900)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide136"].textArray[3])</content>
+			<content>placeText(slideDatabase["slide136"].textArray[4])</content>
+			<content>placeText(slideDatabase["slide136"].textArray[5])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+			<content>method</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide136>
+	
+	<slide137>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+			<content>text136x</content>
+			<content>5</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text137x0", "paragraph", "288", false, "1.7em", "35%", "40%", "none", ".7", 1500)</content>
+			<content>new text("boundingBox", "text137x2", "paragraph", "290", false, "2em", "34%", "51%", "none", ".6", 1500)</content>
+			<content>new text("boundingBox", "text137x1", "paragraph", "289", false, "1.9em", "31%", "45%", "none", ".8", 2000)</content>
+			<content>new text("boundingBox", "text137x3", "paragraph", "291", false, "2em", "50%", "57%", "none", ".6", 2000)</content>
+		</text>
+		<method>
+			<content>placeText(slideDatabase["slide137"].textArray[2])</content>
+			<content>placeText(slideDatabase["slide137"].textArray[3])</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+			<content>text</content>
+		</slideOrder>
+	</slide137>
+	
+	<slide138>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+			<content>text137x</content>
+			<content>3</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+		</text>
+		<method>
+			<content>buttonDisplay = false</content>
+			<content>document.getElementById("thunder1").currentTime = 0</content>
+			<content>document.getElementById("love_this_storm").currentTime = 0</content>
+			<content>document.getElementById("love_this_storm").play()</content>
+			<content>lightning("imgStormSisters0", "callback")</content>
+			<content>document.getElementById("thunder1").play()</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+			<content>fade</content>
+			<content>method</content>
+			<content>method</content>
+			<content>method</content>
+		</slideOrder>
+	</slide138>
+	
+	<slide139>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+			<content>text138x</content>
+			<content>3</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text139x0", "title", "304", false, "1.7em", "24%", "32%", "none", ".7", 1500)</content>
+			<content>new text("boundingBox", "text139x1", "title", "305", false, "1.4em", "25.5%", "39%", "none", ".6", 1500)</content>
+			<content>new text("boundingBox", "text139x2", "title", "306", false, "1.7em", "4%", "54%", "none", ".7", 1500)</content>
+			<content>new text("boundingBox", "text139x3", "title", "307", false, "1.5em", "7%", "61%", "none", ".7", 1500)</content>
+		</text>
+		<method>
+			<content>createFeedback()</content>
+		</method>
+		<slideOrder>
+			<content>fade</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide139>
+
+	<slide140>
+		<fade>
+			<content>clearStage</content>
+			<content>2000</content>
+			<content>text139x</content>
+			<content>3</content>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text140x0", "title", "308", false, "1.2em", "40%", "94.5%", "none", "", 1500)</content>
+		</text>
+		<method>
+			<content>buttonDisplay = false</content>
+			<content>$("#imgStormSisters0").animate({opacity: "1"}, 4000)</content>
+			<content>createFeedback()</content>
+		</method>
+		<slideOrder>
+			<content>method</content>
+			<content>fade</content>
+			<content>method</content>
+			<content>text</content>
+			<content>method</content>
+		</slideOrder>
+	</slide140>
+	
+	
+	<!-- The text for slide 138 -->
+	<slide141>
+		<fade>
+		</fade>
+		<img>
+		</img>
+		<text>
+			<content>new text("boundingBox", "text138x0", "title", "300", false, "1.6em", "11%", "33%", "none", ".7", 4500)</content>
+			<content>new text("boundingBox", "text138x1", "title", "301", false, "1.8em", "14.5%", "39%", "none", ".8", 4500)</content>
+			<content>new text("boundingBox", "text138x2", "title", "302", false, "1.7em", "30.5%", "56%", "none", ".7", 4500)</content>
+			<content>new text("boundingBox", "text138x3", "title", "303", false, "1.9em", "29%", "62.5%", "none", ".8", 4500)</content>
+		</text>
+		<method>
+		</method>
+		<slideOrder>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+			<content>text</content>
+		</slideOrder>
+	</slide141>
+	
+</root>

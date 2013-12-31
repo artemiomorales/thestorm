@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="/">
+		<xsl:for-each select="root/text/content">
+			<xsl:choose>
+				<xsl:when test="@id = 'style'">
+					<span>
+						<xsl:for-each select="style">					
+							<xsl:choose>
+								<xsl:when test="@id = 'italic'">
+									<span id="textContent{position()}" style="font-style:italic"><xsl:value-of select="."/></span>
+								</xsl:when>
+								<xsl:when test="@id = 'bold'">
+									<span id="textContent{position()}" style="font-style:bold"><xsl:value-of select="."/></span>
+								</xsl:when>
+								<xsl:when test="@id = 'break'">
+									<span id="textContent{position()}"><xsl:value-of select="."/><br></br></span>
+								</xsl:when>
+								<xsl:when test="@id = 'dark'">
+									<span id="textContent{position()}" style="opacity:.7"><xsl:value-of select="."/></span>
+								</xsl:when>
+								<xsl:when test="@id = 'portal'">
+									<span id="portal{position()}" class="clickable"><xsl:value-of select="."/></span>
+								</xsl:when>
+								<xsl:otherwise>
+									<span id="textContent{position()}"><xsl:value-of select="."/></span>
+								</xsl:otherwise>
+							</xsl:choose>
+						</xsl:for-each>
+					</span>
+				</xsl:when>
+				<xsl:otherwise>
+					<span id="textContent{position()}"><xsl:value-of select="."/></span>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:for-each>
+	</xsl:template>
+</xsl:stylesheet>

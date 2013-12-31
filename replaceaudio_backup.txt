@@ -1,0 +1,24 @@
+	function replaceAudio(target, newAudio) {
+		document.getElementById(target+"Mp3").setAttribute("src", newAudio+'.mp3');
+		document.getElementById(target+"Ogg").setAttribute("src", newAudio+'.ogg');
+		var audio = document.getElementById(target);
+		audio.load();
+		audio.volume = 1;
+		audio.play();
+	}
+
+function preloadSounds(sounds) {
+		$(sounds).each(function(){
+			$("<audio preload='auto' type='audio/mp3'/>")[0].src = this+".mp3";
+			$("<audio preload='auto' type='audio/ogg'/>")[0].src = this+".ogg";
+		})
+	}
+	
+	preloadSounds([
+		"http://www.muzzine.com/libraryContent/hurricane/love_this_storm",
+		"http://www.muzzine.com/libraryContent/hurricane/thunder",
+		"http://www.muzzine.com/libraryContent/hurricane/thunder2",
+		"http://www.muzzine.com/libraryContent/hurricane/thestorm_audacity",
+		"http://www.muzzine.com/libraryContent/hurricane/car_sound",
+		"http://www.muzzine.com/libraryContent/hurricane/rain_audacity",
+	])
